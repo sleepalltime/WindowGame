@@ -3835,6 +3835,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Exps.int,
 		C3.Plugins.Text.Acts.SetFontColor,
 		C3.Plugins.System.Cnds.IsGroupActive,
+		C3.Plugins.Sprite.Cnds.CompareX,
+		C3.Plugins.Sprite.Cnds.CompareY,
 		C3.Plugins.Timeline.Cnds.IsPlayingByTags,
 		C3.Plugins.System.Acts.ResetGlobals
 	];
@@ -4091,6 +4093,8 @@ self.C3_ExpressionFuncs = [
 			const n1 = p._GetNode(1);
 			return () => (f0(n1.ExpObject()) - 18);
 		},
+		() => 540,
+		() => 270,
 		() => 50,
 		p => {
 			const n0 = p._GetNode(0);
