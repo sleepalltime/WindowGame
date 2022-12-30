@@ -21,16 +21,6 @@
 			"src": "icons/icon-64.png",
 			"sizes": "64x30",
 			"type": "image/png"
-		},
-		{
-			"src": "icons/icon-128.png",
-			"sizes": "128x60",
-			"type": "image/png"
-		},
-		{
-			"src": "icons/icon-256.png",
-			"sizes": "256x121",
-			"type": "image/png"
 		}
 	]
 }
